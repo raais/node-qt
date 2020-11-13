@@ -113,7 +113,7 @@ For all platforms: Node >= **0.6.14**
 To download and build the development version:
 
 ```
-$ git clone git://github.com/arturadib/node-qt.git
+$ git clone git://github.com/raais/node-qt.git
 $ cd node-qt
 $ npm install
 ```
