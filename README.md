@@ -60,7 +60,7 @@ $ npm install node-qt
 Alternatively, to use the latest development version from Github:
 
 ```
-$ npm install git://github.com/arturadib/node-qt.git
+$ npm install git://github.com/raais/node-qt.git
 ```
 
 This will download and build Node-Qt in `node_modules/`. Then create a new file, say `helloworld.js`, copy the example above and run Node as usual:
