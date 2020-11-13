@@ -44,13 +44,13 @@
         }],
         ['OS=="linux"', {
           'cflags': [
-            '<!@(pkg-config --cflags QtCore QtGui QtTest)'
+            '<!@(pkg-config --cflags Qt5Core Qt5Gui Qt5Test)'
           ],
           'ldflags': [
-            '<!@(pkg-config --libs-only-L --libs-only-other QtCore QtGui QtTest)'
+            '<!@(pkg-config --libs-only-L --libs-only-other Qt5Core Qt5Gui Qt5Test)'
           ],
           'libraries': [
-            '<!@(pkg-config --libs-only-l QtCore QtGui QtTest)'
+            '<!@(pkg-config --libs-only-l Qt5Core Qt5Gui Qt5Test)'
           ]
         }],
         ['OS=="win"', {
